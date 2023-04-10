@@ -1,4 +1,6 @@
-export const NewsDummyData = {
+import { NewsCardType } from "../../../types/news";
+
+export const NewsDummyData: NewsCardType = {
   image:
     "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQUfuqnH8r3VetD2sZJn2CDRTSLGorPOntIDApAMqWsyWsVVTyc",
   text: "LIVE Transfer Talk: Manchester United make Harry Kane a priority signing as Bayern Munich ease off",

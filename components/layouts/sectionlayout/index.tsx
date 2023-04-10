@@ -11,7 +11,7 @@ const SectionLayout = ({ children, extraStyles }: SectionLayoutType) => {
   return (
     <TouchableOpacity>
       <View
-        className={`px-2 w-full rounded-md ${
+        className={`px-2 my-1 w-full rounded-md ${
           isDark ? "bg-gray-700" : "bg-gray-300"
         } ${extraStyles && extraStyles}`}
       >
