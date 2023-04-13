@@ -13,6 +13,7 @@ import { View } from "react-native";
 import { FontAwesome } from "@expo/vector-icons";
 import useDark from "./hooks/useDark";
 import Settings from "./screens/settings";
+import { useState } from "react";
 
 const Stack = createStackNavigator();
 const Drawer = createDrawerNavigator();

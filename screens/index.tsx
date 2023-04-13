@@ -55,6 +55,7 @@ const Home = ({ navigation }: any) => {
               homeTeamImage={match.homeTeamImage}
               awayTeamImage={match.awayTeamImage}
               dataToPass={match.dataToPass}
+              navigation={navigation}
             />
           ))}
         </View>

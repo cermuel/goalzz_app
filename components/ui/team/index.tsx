@@ -18,10 +18,10 @@ const TeamCard = (Team: TeamCardType) => {
           source={{
             uri: Team.image,
           }}
-          className="w-12 h-12"
+          className="w-10 h-10"
           alt=""
         />
-        <TextLayout text={Team.name} extraStyles={"font-bold text-xl"} />
+        <TextLayout text={Team.name} extraStyles={"font-bold text-lg"} />
       </View>
       <View>
         <FontAwesome5

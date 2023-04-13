@@ -5,6 +5,7 @@ type TextLayoutType = {
   text: string | string[] | any;
   extraStyles?: string | string[];
   onPress?: any;
+  inverse?: boolean;
 };
 const TextLayout = ({ text, onPress, extraStyles }: TextLayoutType) => {
   const { isDark } = useDark();

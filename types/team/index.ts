@@ -3,3 +3,8 @@ export type TeamCardType = {
   image: string;
   id: number | string;
 };
+
+export type TeamHeadingType = {
+  image: string;
+  text: string;
+};

@@ -7,6 +7,7 @@ export type MatchCardType = {
   awayTeamScore: string | number;
   status: string;
   dataToPass: MatchDataToPass;
+  navigation?: any;
 };
 
 export type MatchDataToPass = {

@@ -3,11 +3,13 @@ import React from "react";
 import { MatchCardType } from "../../../types/match";
 import TextLayout from "../../layouts/textlayout";
 import SectionLayout from "../../layouts/sectionlayout";
+import { handleClick } from "../../../functions/match";
 
-const MatchCard = (Match: MatchCardType) => {
+const MatchCard = (Match: MatchCardType, navigation: any) => {
   return (
     <SectionLayout
       extraStyles={"h-20 flex flex-row justify-between items-center"}
+      onPress={() => handleClick(Match.navigation, Match.dataToPass)}
     >
       <View className={`flex flex-row gap-2 items-center`}>
         <Text className={`text-xs tracking-tighter font-bold text-pry-color`}>
